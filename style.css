@@ -42,6 +42,7 @@ body {
 h1 {
     color: hsl(0, 0%, 100%);
     font-size: 3.5rem;
+    text-align: center;
 }
 span {
     color: hsl(277, 64%, 61%);
@@ -52,6 +53,7 @@ span {
     margin-top: 2.4rem;
     font-size: 1.9rem;
     font-weight: 300;
+    text-align: center;
 }
 
 /* ? Statistics Container */
