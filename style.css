@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    background-color: hsl(233, 47%, 7%);
+    height: 100vh;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main {
+    min-width: 400px;
+    max-width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: hsl(244, 38%, 16%);
+    flex: 1 1;
+    border-radius: 15px;
+}
+
+.container {
+    flex: 1 0 400px;
+    padding: 3rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    gap: 1rem;
+}
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 3.5rem;
+}
+span {
+    color: hsl(277, 64%, 61%);
+}
+.summary p {
+    font-family: "Lexend Deca", sans-serif;
+    color: hsla(0, 0%, 100%, 0.5);
+    margin-top: 2.4rem;
+    font-size: 1.9rem;
+    font-weight: 300;
+}
+
+/* ? Statistics Container */
+.statistics {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.A, .B, .C {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.A {
+    flex: 1 1 200px;
+}
+.B {
+    flex: 1 1 200px;
+}
+.C {
+    flex: 1 1 200px;
+}
+.bold {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: hsl(0, 0%, 100%);
+}
+.capital {
+    font-family: "Lexend Deca", sans-serif;
+    text-transform: uppercase;
+    color: hsla(0, 0%, 100%, 0.6);
+    letter-spacing: 3px;
+    font-size: 1rem;
+    font-weight: 350;
+    padding: 0.5rem 0rem;
+}
+/* ? Image Container */
+.image {
+    flex: 1 0 400px;
+    position: relative;
+}
+.image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 15px;
+}
+.mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: hsla(277, 64%, 61%);
+    z-index: 1;
+    opacity: 0.5;
+}
+
